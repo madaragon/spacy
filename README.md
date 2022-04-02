@@ -13,6 +13,7 @@ pip install requests
 $python3
 >>>import spacy
 >>>sp = spacy.spacy()
+>>>sp.create_header("your bearertoken")
 >>>sp.create_params(query='characters', state='live')
 >>>sp.connect_to_search_space_endpoint()
 print return json
